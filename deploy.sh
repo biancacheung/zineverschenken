@@ -6,7 +6,7 @@ npm ci
 # build static files
 npm run build
 # navigate into the build output directory
-cd ./dist
+cd dist
 # create a fresh new git repo in the output directory
 git init
 git add -A
