@@ -1,0 +1,25 @@
+{
+  "name": "zineverschenken",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx parcel ./src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/biancacheung/zineverschenken.git"
+  },
+  "author": "Bianca Dias Cheung",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/biancacheung/zineverschenken/issues"
+  },
+  "homepage": "https://github.com/biancacheung/zineverschenken#readme",
+  "devDependencies": {
+    "parcel": "^2.6.1",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.1.3"
+  }
+}
