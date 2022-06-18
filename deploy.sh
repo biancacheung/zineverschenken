@@ -2,9 +2,9 @@
 # abort on errors
 set -e
 # install dependencies
-npm ci
+npm install
 # build static files
-npm run build
+npm run start
 # navigate into the build output directory
 cd dist
 # create a fresh new git repo in the output directory
