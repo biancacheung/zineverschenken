@@ -4,7 +4,7 @@ set -e
 # install dependencies
 npm ci
 # build static files
-npm run start
+npm run build
 # navigate into the build output directory
 cd dist
 # create a fresh new git repo in the output directory
