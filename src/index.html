@@ -5,9 +5,63 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./index.css" rel="stylesheet">
 </head>
-<body class="bg-black">
-  <h1 class="text-white text-2xl font-bold absolute top-1/2 left-1/2 transform -translate-x-1/2 animate-pulse">
-    work in progress…
+<body class="bg-white flex">
+<div class="max-w-screen-xl mx-auto">
+  <div class="md:w-1/2 flex mx-auto">
+    <img src="./img/logo.png" alt="">
+  </div>
+  <div class="flex justify-center">
+    <div class="w-[7%] md:w-[3%] lg:w-[2%]">
+      <a onclick="myFunction()" >
+    <svg id="plus" xmlns="http://www.w3.org/2000/svg" class="border-2 border-black rounded-full  hover:bg-black hover:stroke-white h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+<path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
+</svg>
+<svg id="minus" xmlns="http://www.w3.org/2000/svg" class="border-2 border-black rounded-full  hover:bg-black hover:stroke-white  h-6 w-6 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6" />
+</svg>
+</a>
+    </div>
+  </div>
+  <div class="mx-auto px-8 md:w-1/2 m-14">
+    <div id="about" class="text-center text-sm hidden">
+      <h2 class="font-bold text-xl pb-8">about us</h2>
+      <p>Zine Verschenken is a free zine created by a community of Berlin women, for Berlin women. Inspired by giveaway culture, our zine is freely distributed online and in local neighbourhoods in Berlin. Each monthly issue follows a specific theme where the collective behind Zu Verschenken aim to produce content that ranges from interviews, surveys, creative writing and illustrations. We aim to inform, inspire and intrigue women in the Berlin community with our content.
+
+    Interested in participating in our next issue? Contact us here
+    zine.verschenken@gmail.com</p>
+    </div>
+  </div>
+  <div class="mx-auto px-8 md:w-1/2 m-14">
+  <div class="text-center font-bold text-xl pb-8">
+     #1 | june 2022 | zu verschenken
+  </div>
+  <div class="text-center pb-8 text-sm">
+    <p>Have you ever gotten something for free? Maybe you had no choice because you were in between jobs and so broke that you needed to find an activity to liven up the day. Perhaps it was luck that took you on a journey.
+</p>
+  </div>
+  <div class="text-center font-bold">
+    <h2>Artists</h2>
+    <div class="text-center font-normal pb-8 text-sm">
+      <p>Andreea Cristina Nina, Bianca Cheung, Elena Marcos, Erin Johnson, Julia Beresikowa, Luisa Estrada
+</p>
+    </div>
+    <div class="text-center font-normal text-sm pb-8">
+      <a class= "border-2 border-black text-black px-4 py-2 rounded-full hover:bg-black hover:text-white"href="./pdf/1-june22.pdf " target="_blank"> see edition</a>
+    </div>
+    <div class="w-1/2 pb-8 flex mx-auto">
+      <img src="./img/1_june22_cover 1.png" alt="">
+    </div>
+  </div>
+  </div>
   </h1>
+  <footer class="bg-black text-center lg:text-left">
+    <div class="text-white text-center text-sm p-4" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2022 Copyright: Zine Verschenken
+    </div>
+  </footer>
+  </div>
+  <script type="text/javascript" src="./script.js">
+
+  </script>
 </body>
 </html>
